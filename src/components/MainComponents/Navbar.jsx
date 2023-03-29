@@ -9,7 +9,7 @@ import { ImExit  } from "react-icons/im";
 
 const DataNavbar = () => {
     return (
-      <div className="border border-gray-300 relative drop-shadow-xl flex flex-row justify-between">
+      <div className="border border-gray-300 w-full  relative drop-shadow-xl flex flex-row justify-between">
         <div className=" flex flex-row gap-2">
           <div className="  p-2 gap-1 flex flex-col items-center">
             <AiOutlineHome size="18" color="#ff4218" />
