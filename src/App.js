@@ -1,12 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Layout from './page/Layout';
+import Main from './page/Main';
+import Notification from './page/Notification';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
-      </Route>
+      <Route path="/" element={<Main />} />
+
+      <Route path="/notification" element={<Notification />} />
+   
     </Routes>
   );
 }
