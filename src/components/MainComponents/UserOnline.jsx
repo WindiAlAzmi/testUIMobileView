@@ -5,8 +5,8 @@ import { faker } from "@faker-js/faker";
 const CardUser = () => {
     const imgPerson = faker.image.avatar();
     return (
-      <div className="bg-white rounded-xl drop-shadow-lg -mt-4 flex flex-row p-4 relative items-center">
-        <div className="  flex flex-row relative ml-10 justify-center">
+      <div className="bg-white rounded-xl drop-shadow-lg -mt-4 flex flex-row justify-center p-4 relative items-center">
+        <div className=" flex flex-row relative ml-10 justify-center">
           <div className=" flex flex-col items-center z-0 relative">
             <div className="w-8 h-8 border border-black rounded-full ">
               <img src={imgPerson} alt="person" className="rounded-full" />

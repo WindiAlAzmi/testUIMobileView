@@ -9,7 +9,7 @@ import { ImExit  } from "react-icons/im";
 
 const DataNavbar = () => {
     return (
-      <div className="border border-gray-300 w-full  relative drop-shadow-xl flex flex-row justify-between">
+      <div className="border border-gray-300 w-full max-[360px]:bg-red-200 relative drop-shadow-xl flex flex-row justify-between">
         <div className=" flex flex-row gap-2">
           <div className="  p-2 gap-1 flex flex-col items-center">
             <AiOutlineHome size="18" color="#ff4218" />
@@ -21,7 +21,7 @@ const DataNavbar = () => {
           </div>
         </div>
 
-        <div className=" absolute left-32 -top-6 flex flex-col items-center">
+        <div className="-mt-5 flex flex-col items-center">
           <div className="rounded-full  flex flex-row items-center justify-center bg-[#ff4218] h-14 w-14">
             <ImExit size="30" color="white" />
           </div>
