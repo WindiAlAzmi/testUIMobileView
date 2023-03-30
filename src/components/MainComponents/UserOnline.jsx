@@ -72,7 +72,7 @@ const TextUser = () => {
   return (
     <div className=" text-black">
       <h3 className="font-bold text-black text-[14px] ml-2">
-        Today's activity
+        Online
       </h3>
     </div>
   );
